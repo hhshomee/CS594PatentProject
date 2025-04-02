@@ -8,7 +8,7 @@ This repository contains code to build a text-attributed graph from patent data.
 - Generate semantic embeddings using SentenceTransformers
 - Build a similarity graph based on customizable thresholds
 
-## Graph Dataset
+## Patent Graph Dataset
 - is located in `CS594PatentProject/output` folder
 
 ## Authors
