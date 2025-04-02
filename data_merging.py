@@ -1,0 +1,13 @@
+import pandas as pd
+df1=pd.read_csv("data_subclass_wise/Generated_Abstracts_A61B.csv")
+df2=pd.read_csv("data_subclass_wise/Generated_Abstracts_A61F.csv")
+df3=pd.read_csv("data_subclass_wise/Generated_Abstracts_A61K.csv")
+df4=pd.read_csv("data_subclass_wise/Generated_Abstracts_A61L.csv")
+df5=pd.read_csv("data_subclass_wise/Generated_Abstracts_A61M.csv")
+df6=pd.read_csv("data_subclass_wise/Generated_Abstracts_A61N.csv")
+df7=pd.read_csv("data_subclass_wise/Generated_Abstracts_A61P.csv")
+df8=pd.read_csv("data_subclass_wise/Generated_Abstracts_A61Q.csv")
+df=pd.concat([df1, df2,df3,df4,df5,df6,df7,df8], ignore_index=True)
+df = df.sample(frac=1, random_state=42).reset_index(drop=True)
+df.to_csv("data_A61.csv")
+print(len(df))
