@@ -7,4 +7,10 @@ This repository contains code to build a text-attributed graph from patent data.
 - Load and preprocess patent data from CSV files
 - Generate semantic embeddings using SentenceTransformers
 - Build a similarity graph based on customizable thresholds
+
+## Authors
+Homaira huda Shomee (hshome2@uic.edu)
+Ataher Sams (asams3@uic.edu)
 <!-- - Save graphs in various formats (GraphML, GEXF, Pickle, CSV)
+
+
