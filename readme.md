@@ -38,7 +38,7 @@ Replace GCN with the specific GNN model you want to use, such as GCN_deep, Graph
 hf_token = "hf_token"
 
 ## Authors
-Homaira huda Shomee (hshome2@uic.edu)
+Homaira Huda Shomee (hshome2@uic.edu)
 Ataher Sams (asams3@uic.edu)
 <!-- - Save graphs in various formats (GraphML, GEXF, Pickle, CSV)
 
