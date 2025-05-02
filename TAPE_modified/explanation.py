@@ -56,11 +56,9 @@ for idx, row in df.iterrows():
               \"\"\"{abstract}\"\"\"
 
               Respond in this exact format: 
-              Class: <one of {list(patent_classes.keys())}> 
               Explanation: <brief reasoning under 100 words>
 
               Below is an example: 
-              Class: A61K
               Explanation:  The abstract describes vaccine compositions for treating and/or preventing infections, which is a medical preparation for a specific purpose. The composition comprises bacteria of the Chlamydiaceae family, which have been previously treated by at least one peptidoglycan inhibitor, or extracts of said treated bacteria. This falls under the category of "preparations for medical, dental or toiletry purposes" as described in A61K.
 
 
